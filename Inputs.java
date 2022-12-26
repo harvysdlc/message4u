@@ -111,11 +111,12 @@ public class Inputs {
 
     public void archive(){
         System.out.println("\nooooooooooooooooooooooooooooooooooooooooooooooooooooooo");
-        System.out.println("\nArchives");
+        System.out.println("\nArchives\n");
 
         for(String notes : messages ){
             System.out.println(notes + "\n");
         }
+        premium();
     }
 
 }
