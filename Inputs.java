@@ -41,20 +41,23 @@ public class Inputs {
         for(String names : userName){
             if(names.equals(user)){
                 System.out.println("\nWe Found, " + user);
-                //premium();
+                break;
             }
-            else 
+            else{
             System.out.println("\nNo Account Matched");
             mainMenu();
+            }
         }
         for(String passcodes : userPass){
             if(passcodes.equals(password)){
-                System.out.println("\nWelcome, " + user);
+                System.out.println("Welcome, " + user);
                 premium();
+                break;
             }
-            else 
+            else{
             System.out.println("\nNo Account Matched");
             mainMenu();
+            }
         }
 
         
