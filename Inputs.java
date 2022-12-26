@@ -58,10 +58,7 @@ public class Inputs {
             System.out.println("\nNo Account Matched");
             mainMenu();
             }
-        }
-
-        
-       
+        }      
     }
 
     public void SignUp(){
@@ -96,7 +93,6 @@ public class Inputs {
             System.out.println("\nWrong Input!");
             premium();
         }
-
     }
 
     public void compose(){
@@ -118,5 +114,4 @@ public class Inputs {
         }
         premium();
     }
-
 }
